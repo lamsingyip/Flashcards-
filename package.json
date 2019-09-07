@@ -1,0 +1,21 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "Several things we did special:  1. The submission will initially contain an empty database, Flashcards.db.  2. Please save more cards and also try more times to see those random \"new\" review cards... It could be the same review card for several times. Once you have saved and seen couple cards and answered them correctly, the whole cards' displaying order will be more random. Prefer more cards saved! 3. The card flipping behavior is quite sweet. You can flip back and forth without changing the card; you can get a new card by clicking \"next button\" whenever you are in front card view or back card view. A new card will be always ready for you whenever you click \"start review\" or just old user logging in. 4. Enjoy playing with it!",
+  "main": "createDB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
+    "sqlite3": "^4.0.8"
+  }
+}
